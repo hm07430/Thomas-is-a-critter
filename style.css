@@ -1,30 +1,25 @@
-body {
-  background-color: #FFF;
+* {
+  border: 0px solid White;
+  font-family: Verdana, sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
 }
 
 .header {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-5/htmlcss1-img_canyon.jpeg");
-  background-position: center center;
-  background-size: cover;
-  height: 400px;
-  width: 100%;
+  text-align: center;
+  margin: 20px;
 }
 
-/* Add the ID selector to this CSS rule */
-
-#header-text {
-  margin: 0 auto;
-  position: relative;
-  text-align: center;
-  top: 25%;
-  width: 60%;
+.header h2 {
+  color: Black;
 }
 
 h1 {
-  color: #FFF;
-  font-family: 'Quicksand', sans-serif;
+  color: Black;
   font-size: 70px;
   font-weight: 400;
   line-height: 60px;
@@ -33,7 +28,6 @@ h1 {
 
 h2 {
   color: #FFF;
-  font-family: 'Open Sans', sans-serif;
   text-align: center;
   font-size: 28px;
   font-weight: 100;
@@ -41,7 +35,6 @@ h2 {
 
 h3 {
   color: Brown;
-  font-family: 'Quicksand', sans-serif;
   font-size: 28px;
   font-weight: 400;
   line-height: 30px;
@@ -51,14 +44,12 @@ h3 {
 
 h4 {
   color: #CCC;
-  font-family: 'Quicksand', sans-serif;
   font-size: 16px;
   font-weight: 300;
 }
 
 p {
   color: white;
-  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 100;
   line-height: 24px;
@@ -69,43 +60,15 @@ p {
 
 /* Add the class selector to this CSS rule */
 
-.partner {
-  padding: 20px;
-  margin: 0 auto;
-  border-bottom: 1px solid #EEE;
-}
-
-.partner img {
-  position: relative;
-  top: 6px;
-}
-
-.prop, .partner {
-  text-align: center;
-}
-
-.aa-logo {
-  padding-left: 6px;
-}
-
 .main {
-  background: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-5/shards.png");
+  background-color: DarkGreen;
   margin: 0;
   padding: 40px;
 }
 
-.critter-props {
+.critter-prop {
+  border: 4px solid green;
   margin: 40px auto;
   width: 60%;
-}
-
-.prop {
-  border: 1px solid #FFF;
-  padding: 40px 0px;
-  margin: 5px 0px;
-}
-
-.prop h2 {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 24px;
+  text-align: center;
 }
