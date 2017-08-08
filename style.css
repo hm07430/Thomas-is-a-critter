@@ -12,68 +12,50 @@ body {
 .header {
   text-align: center;
   position: relative;
-  margin: 20px;
+  margin: 1%;
 }
 
 .header h2 {
   color: Black;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 h1 {
   color: Black;
-  font-size: 70px;
+  font-size: 4em;
   font-weight: 400;
-  line-height: 60px;
   margin: 0;
 }
 
 h2 {
-  color: #FFF;
+  color: White;
   text-align: center;
-  font-size: 28px;
-  font-weight: 100;
-}
-
-h3 {
-  color: Brown;
-  font-size: 28px;
-  font-weight: 400;
-  line-height: 30px;
-  margin: 10px 0px;
-  text-align: center;
-}
-
-h4 {
-  color: #CCC;
-  font-size: 16px;
-  font-weight: 300;
+  font-size: 2em;
+  font-weight: bold;
 }
 
 p {
   color: white;
-  font-size: 16px;
-  font-weight: 100;
-  line-height: 24px;
-  margin: 0 auto;
+  font-size: 1em;
+  margin: 2% auto;
   width: 60%;
 }
 
 .main {
   background-color: DarkGreen;
   margin: 0;
-  padding: 40px;
+  padding: 5%;
 }
 
 .critter-prop {
-  border: 4px solid green;
-  margin: 40px auto;
+  border:  2px solid white;
+  margin: 2% auto;
   width: 60%;
   text-align: center;
 }
 
 .critter-prop img {
   display: block;
-  width:75%;
-  margin: 10px auto;
+  width: 75%;
+  margin: 2% auto;
 }
